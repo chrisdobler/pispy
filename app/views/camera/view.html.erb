@@ -1,1 +1,9 @@
-<div id="webcam"><img src="<%=@stream_address%>/?action=snapshot" /></div>
+<% content_for :head do %>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		createImageLayer();
+	})
+  </script>
+<% end %>
+
+<div id="webcam"><img id="camstream" src="<%=@stream_address%>/?action=snapshot" /></div>
