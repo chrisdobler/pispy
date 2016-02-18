@@ -6,4 +6,7 @@ class CameraController < ApplicationController
 	def settings
 	end
 
+	def guide
+	end
+	
 end
