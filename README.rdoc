@@ -1,3 +1,0 @@
-A Rails based web cam for the Raspberry Pi. 
-
-The eventual goal is to send the cam stream into a website (PeepMyPet.com - not yet live) which allows you to show off your pets on a live feed and allow other people to rate your pet and potentially interact with your pet (feeding, playing, etc..) using the gpio pins on the Raspberry Pi.
